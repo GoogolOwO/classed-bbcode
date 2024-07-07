@@ -8,9 +8,6 @@
         "flarum/core": ">=0.1.0-beta.16",
         "bbcode": ">=0.1.0"
     },
-    "autoload": {
-        "psr-4": {"googolowo\\ClassedBBCode\\": "src/"}
-    },
     "extra": {
         "flarum-extension": {
             "title": "Classed BBCode",
