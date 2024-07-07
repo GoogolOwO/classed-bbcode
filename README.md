@@ -13,3 +13,5 @@ it will get
 ```
 <div class="<classname>">Content</div>
 ```
+
+This extension making is referening some BBCode extensions, documentation. It spent a lot time.
