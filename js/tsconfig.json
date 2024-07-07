@@ -1,0 +1,16 @@
+{
+    //使用Flarum的tsconfig作为开始
+    "extends": "flarum-tsconfig",
+    // 这会匹配你的 `src` 文件夹中所有的.ts、.tsx、.d.ts、.js和.jsx文件
+    // 同时会让你的Typescript读取论坛核心的全局类型申明
+    // 以获取全局命名空间中的`dayjs`和`$`
+    "include": ["src/**/*", "../vendor/flarum/core/js/dist-typings/@types/**/*"],
+    "compilerOptions": {
+      // 这会让类型申明输出到 `dist-typings`
+      "declarationDir": "./dist-typings",
+      "baseUrl": ".",
+      "paths": {
+        "flarum/*": ["../vendor/flarum/core/js/dist-typings/*"]
+      }
+    }
+  }
