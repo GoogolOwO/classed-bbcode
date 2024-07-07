@@ -2,6 +2,7 @@
     "name": "googolowo/classed-bbcode",
     "description": "A Flarum Extension, that can custom BBCode with a class.",
     "type": "flarum-extension",
+    "version": "0.0.1",
     "require": {
         "flarum/core": ">=0.1.0-beta.16",
         "bbcode": ">=0.1.0"
