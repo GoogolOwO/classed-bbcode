@@ -1,6 +1,6 @@
 {
     "name": "googolowo/classed-bbcode",
-    "description": "A Flarum Extension, that can custom BBCode with a class.",
+    "description": "A Flarum Extension developed by Googol, that can custom BBCode with a class.",
     "type": "flarum-extension",
     "version": "0.0.1",
     "licence": "MIT",
